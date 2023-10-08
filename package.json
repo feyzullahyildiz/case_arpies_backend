@@ -6,7 +6,9 @@
     "scripts": {
         "dev": "nodemon src/server.ts",
         "test": "jest",
+        "test:watch": "jest --watchAll",
         "tsc": "tsc",
+        "start": "node dist/server.js",
         "build": "tsc",
         "eslint": "eslint .",
         "eslint:fix": "eslint . --fix",
@@ -14,7 +16,7 @@
         "prepare": "husky install"
     },
     "keywords": [],
-    "author": "",
+    "author": "ahmet.feyzullah.yildiz@gmail.com",
     "license": "ISC",
     "dependencies": {
         "dotenv": "^16.3.1",
