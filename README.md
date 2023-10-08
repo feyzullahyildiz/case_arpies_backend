@@ -21,3 +21,7 @@ docker build . -t arpies-backend
 
 docker run --name arp-back -p 8000:8000 arpies-backend
 ```
+
+# Served AT
+
+https://case-arpies-backend.onrender.com/api/data
