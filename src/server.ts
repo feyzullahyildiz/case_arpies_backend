@@ -1,6 +1,6 @@
 import dotenv from "dotenv";
-import { app } from "./app";
 dotenv.config();
+import { app } from "./app";
 
 // eslint-disable-next-line @typescript-eslint/strict-boolean-expressions
 const port = process.env.PORT ?? 8000;
